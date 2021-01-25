@@ -10346,7 +10346,7 @@ body {
 @media (min-width: 992px) {
   .masthead {
     height: 100vh;
-    padding: 0;
+    padding-top: 14rem;
   }
   .masthead h1 {
     font-size: 3rem;
