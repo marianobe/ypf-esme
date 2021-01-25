@@ -25,8 +25,10 @@
 </head>
 
 <body id="page-top">
+
+
     <!-- Navigation-->
-    <nav class="navbar navbar-dark bg-black justify-content-center">
+    <nav class="navbar justify-content-center" id="navbar">
         <a class="navbar-brand" href="https://www.ypf.com/">
             <img src="assets/img/ypf-logo.svg" width="100" alt="YPF">
         </a>
@@ -294,10 +296,13 @@
     <script>
         var d = new Date();
         var n = d.getHours();
-        if (n > 19 || n < 6)
-            $("#header").addClass("noche");
-        else
+        if (n > 19 || n < 6) {
+             $("#header").addClass("noche");
+             $("#navbar").addClass("noche-nav");
+       }  else {
             $("#header").addClass("dia");
+            $("#navbar").addClass("dia-nav");
+        }
     </script>
 </body>
 
