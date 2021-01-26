@@ -10277,7 +10277,7 @@ body {
   background-image: url(/assets/img/header-dia.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-attachment: fixed;
   background-size: cover;
   color: black;
 }
@@ -10290,7 +10290,7 @@ body {
   background-image: url(/assets/img/header-noche.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-attachment: fixed;
   background-size: cover;
 }
 
@@ -10362,9 +10362,9 @@ body {
 .evolucion-section {
   padding-top: 10rem;
   padding-bottom: 12rem;
-  background: #02050E;
-  background-image: url(../assets/img/bg-dotted.svg);
-  background-image: url(../assets/img/bg-dotted.svg), radial-gradient(circle, rgba(2,5,14,1) 0%, rgba(2,5,14,1) 50%, rgba(2,5,14,0) 100%);
+  background: url(/assets/img/bg-dotted.svg), #02050E;
+
+  background-image: url(/assets/img/bg-dotted.svg), radial-gradient(circle, rgba(2,5,14,1) 0%, rgba(2,5,14,1) 50%, rgba(2,5,14,0) 100%);
   background-size: cover;
 }
 .evolucion h2 {
