@@ -10350,9 +10350,9 @@ body {
 .evolucion-section {
   padding-top: 10rem;
   padding-bottom: 12rem;
-  background: url(/assets/img/bg-dotted.svg), #02050E;
+  background: url(../assets/img/bg-dotted.svg), #02050E;
 
-  background-image: url(/assets/img/bg-dotted.svg), radial-gradient(circle, rgba(2,5,14,1) 0%, rgba(2,5,14,1) 50%, rgba(2,5,14,0) 100%);
+  background-image: url(../assets/img/bg-dotted.svg), radial-gradient(circle, rgba(2,5,14,1) 0%, rgba(2,5,14,1) 50%, rgba(2,5,14,0) 100%);
   background-size: cover;
 }
 .evolucion h2 {
